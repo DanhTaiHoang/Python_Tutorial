@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -n "message:"
+echo -n "message: "
 read message
 git add --all
 git commit -am "${message}"
